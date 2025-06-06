@@ -46,7 +46,8 @@ locals {
         "roles/cloudasset.owner",
         "roles/cloudsupport.techSupportEditor",
         "roles/compute.orgFirewallPolicyAdmin",
-        "roles/compute.xpnAdmin"
+        "roles/compute.xpnAdmin",
+        "roles/iap.httpsResourceAccessor"
       ]
     }
     (local.principals.gcp-organization-admins) = {
